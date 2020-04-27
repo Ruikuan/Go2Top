@@ -6,19 +6,20 @@
   "icons": {
     "16": "icons/top_16.png",
     "32": "icons/top_32.png",
-    "48": "icons/top_48.png",
     "128": "icons/top_128.png"
   },
+  "background" : {
+    "scripts" : ["background/background.js"]
+  },
   "browser_action": {
-    "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/top_16.png",
       "32": "icons/top_32.png",
-      "48": "icons/top_48.png",
       "128": "icons/top_128.png"
     },
     "default_title":"Go2Top: tap to roll page to top"
   },
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": [
