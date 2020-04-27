@@ -1,3 +1,3 @@
 # Go2Top
 
-Very simple extension, just tap the icon to roll page to top. Very useful for touch screen user.
+Very simple extension, just tap the icon to roll page to top. Very useful for touch screen users.
