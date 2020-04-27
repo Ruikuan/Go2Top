@@ -1,0 +1,33 @@
+{
+  "name": "Go2Top",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "Click to roll page to top for touch mode user",
+  "icons": {
+    "16": "icons/top_16.png",
+    "32": "icons/top_32.png",
+    "48": "icons/top_48.png",
+    "128": "icons/top_128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/top_16.png",
+      "32": "icons/top_32.png",
+      "48": "icons/top_48.png",
+      "128": "icons/top_128.png"
+    },
+    "default_title":"Go2Top: tap to roll page to top"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content-scripts/content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.svg"
+  ]
+}
