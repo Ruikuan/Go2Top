@@ -1,3 +1,3 @@
 # Go2Top
 
-Very simple extension, just tap the icon to roll page to top. Very useful for touch screen device users.
+When visiting large web page, it is not easy to scroll to top for users using touch screen devices such as Surface Go, without a keyboard. This extension is useful for them, just click/tap the extension icon then the page scroll to the top immediately, very convenient.
